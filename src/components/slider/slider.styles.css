@@ -1,0 +1,44 @@
+.main-image {
+  background-image: url(../../assets//sliderr.jpg);
+  width: 100%;
+  height: 653px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main-image .img-content {
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main-image .img-content p {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.main-image .img-content h2 {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+@media (max-width: 900px) {
+  .main-image .img-content {
+    left: 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-image .img-content {
+    left: 30%;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-image .img-content {
+    left: 35%;
+  }
+}
+/*# sourceMappingURL=slider.styles.css.map */

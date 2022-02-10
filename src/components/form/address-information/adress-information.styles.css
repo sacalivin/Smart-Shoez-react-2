@@ -1,0 +1,56 @@
+.address-information-container {
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  padding-bottom: 4rem !important;
+}
+
+.address-information-container .card .card-body {
+  background-color: #f5f7f7;
+}
+
+.address-information-container .card .card-body input {
+  border: none;
+  background-color: #f5f7f7;
+  -webkit-box-shadow: 0 4px 2px -2px #c5c7c5, 0px 0px 5px #c5c7c5, -4px -4px 4px white, inset 5px 5px 4px white;
+          box-shadow: 0 4px 2px -2px #c5c7c5, 0px 0px 5px #c5c7c5, -4px -4px 4px white, inset 5px 5px 4px white;
+  border-radius: 5px;
+  color: #6b968b;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+
+.address-information-container .card .card-body input:focus {
+  outline: none;
+}
+
+.address-information-container .card .card-body label {
+  display: block;
+  margin-top: .9rem;
+  margin-bottom: 0.2rem;
+  font-size: 15px;
+}
+
+.address-information-container .card .card-body button {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  padding-left: 19px;
+  padding-right: 19px;
+  border: none;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 2px black;
+          box-shadow: 1px 1px 2px black;
+  font-size: 15px;
+}
+
+.address-information-container .card .card-body .error-message {
+  font-size: 13px;
+  color: #d17171;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+.address-information-container .card .card-header {
+  text-align: center;
+}
+/*# sourceMappingURL=adress-information.styles.css.map */

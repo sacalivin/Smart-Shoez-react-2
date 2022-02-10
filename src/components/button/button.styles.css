@@ -1,0 +1,17 @@
+.button-container .btn {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  padding-left: 19px;
+  padding-right: 19px;
+  border: none;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 2px black;
+          box-shadow: 1px 1px 2px black;
+  font-size: 15px;
+}
+
+.button-container .btn:hover {
+  color: lightgrey;
+}
+/*# sourceMappingURL=button.styles.css.map */

@@ -15,7 +15,7 @@ const SHOE_DATA = [
   {
     id: 3,
     name: 'Stride Ride',
-    imageUrl: 'https://i.ibb.co/d4Rjpxd/129988419-848487669026791-7860488758172182720-n.jpg',
+    imageUrl: 'https://i.ibb.co/d4Rjpxd/129988419-84848  7669026791-7860488758172182720-n.jpg',
     price: 30
   },
   {

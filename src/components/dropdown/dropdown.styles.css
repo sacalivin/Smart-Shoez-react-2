@@ -1,0 +1,121 @@
+.logo {
+  width: 11rem;
+}
+
+.navbar .nav-item {
+  padding-right: 20px !important;
+  font-weight: 400;
+}
+
+.navbar .nav-item:hover {
+  color: #4ED7B7;
+  cursor: pointer;
+}
+
+.navbar a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.navbar .counter {
+  position: relative;
+  bottom: 37px;
+  left: 14px;
+}
+
+.navbar .counter .count {
+  background-color: #4ED7B7;
+  padding: 3px 7px 3px 7px;
+  border-radius: 90px;
+  color: white;
+  font-size: 8px;
+  font-weight: bolder;
+  display: inline;
+}
+
+.navbar .btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.navbar .dropdown ::-webkit-scrollbar {
+  width: 6px;
+}
+
+.navbar .dropdown ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.navbar .dropdown ::-webkit-scrollbar-thumb {
+  background: lightgray;
+  border-radius: 49px;
+}
+
+.navbar .dropdown ::-webkit-scrollbar-thumb:hover {
+  background: #b6b6b6;
+}
+
+.navbar .dropdown .dropdown-menu .items {
+  width: 300px !important;
+  height: 245px !important;
+  overflow-y: scroll;
+}
+
+.navbar .dropdown .dropdown-menu .items .image {
+  width: 32%;
+  margin: 0px !important;
+  display: inline-block;
+}
+
+.navbar .dropdown .dropdown-menu .items .image img {
+  margin-top: -20px !important;
+  width: 60px;
+}
+
+.navbar .dropdown .dropdown-menu .items .details {
+  width: 68%;
+  display: inline-block;
+}
+
+.navbar .dropdown .dropdown-menu .items .details span {
+  display: block;
+}
+
+.navbar .dropdown .dropdown-menu .items .details .name {
+  color: grey;
+  font-size: 13px;
+}
+
+.navbar .dropdown .dropdown-menu .items .details .price {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-item {
+  padding-bottom: 8px;
+  padding-top: 19px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-item .moreProd {
+  text-align: center;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-item .moreProd button {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: none;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 2px black;
+          box-shadow: 1px 1px 2px black;
+  font-size: 13px;
+}
+
+.navbar .dropdown .dropdown-menu .bbtn-droopdown {
+  border-bottom: none !important;
+}
+/*# sourceMappingURL=dropdown.styles.css.map */
