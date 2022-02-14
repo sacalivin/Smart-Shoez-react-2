@@ -6,7 +6,8 @@ import CheckOut from './pages/checkout/checkout.component';
 import HorizontalLinearStepper from './pages/stepper/stepper.component';
 import {Switch, Route } from "react-router-dom";
 import { CartContext, CounterContext, TotalContext, ShippingContext } from './config/context'
-
+import { Provider } from 'react-redux';
+import store from './Rudex/store'
 function App() {
   let count = useState(0)               // Number of items added into cart
   let [cart, setCart] = useState([])    // Array to store the items
@@ -16,7 +17,8 @@ function App() {
 
  
   return (
-    <CartContext.Provider value={[cart, setCart]}>
+    <Provider store={store}>
+    {/* <CartContext.Provider value={[cart, setCart]}>
       <TotalContext.Provider value={[total, setTotal]}>
         <CounterContext.Provider value={count}>
           <ShippingContext.Provider value={[shippingDetails, setShippingDetails]}>
@@ -33,7 +35,10 @@ function App() {
           </ShippingContext.Provider>
         </CounterContext.Provider>
       </TotalContext.Provider>
-    </CartContext.Provider>
+    </CartContext.Provider> */}
+
+    <Products />
+    </Provider>
   );
 }
 
